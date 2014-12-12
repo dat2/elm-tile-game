@@ -10,6 +10,10 @@ isometric tilemaps, this is mainly a toy project and is probably better to just 
 The game uses the Kenney [Isometric Landscape](http://opengameart.org/content/isometric-landscape) assets right now.
 Create an `assets` folder in the root directory of this repository, download the zip file, and copy all files from the `PNG` folder into the assets folder you just created.
 
+
+# Tile Map notes
+The tile map must be square, and it will render diagonally (see below for pictures). The functions described below should work for any size square (I have manually tested them vigorously) but if they do not work for some size, let me know.
+
 # Draw order versus Render order
 
 A little bit of glossary here:
