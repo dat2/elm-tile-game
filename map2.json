@@ -1,13 +1,13 @@
-{ "height":4,
+{ "height":16,
  "layers":[
         {
-         "data":[1, 2, 2, 5, 3, 4, 4, 7, 3, 4, 4, 7, 6, 8, 8, 9],
-         "height":4,
+         "data":[6, 2, 2, 4, 7, 7, 7, 7, 7, 7, 7, 6, 2, 2, 2, 4, 1, 7, 7, 1, 7, 7, 7, 7, 7, 7, 7, 1, 7, 7, 7, 1, 1, 7, 7, 1, 7, 7, 7, 7, 7, 7, 7, 1, 7, 7, 7, 1, 1, 7, 7, 5, 2, 2, 2, 2, 2, 2, 2, 3, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 5, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3],
+         "height":16,
          "name":"Main_Layer",
-         "opacity":0.5,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":4,
+         "width":16,
          "x":0,
          "y":0
         }],
@@ -33,44 +33,36 @@
             {
              "0":
                 {
-                 "image":"assets\/landscapeTiles_114.png"
+                 "image":"assets\/landscapeTiles_082.png"
                 },
              "1":
                 {
-                 "image":"assets\/landscapeTiles_080.png"
+                 "image":"assets\/landscapeTiles_074.png"
                 },
              "2":
                 {
-                 "image":"assets\/landscapeTiles_087.png"
+                 "image":"assets\/landscapeTiles_127.png"
                 },
              "3":
                 {
-                 "image":"assets\/landscapeTiles_081.png"
+                 "image":"assets\/landscapeTiles_126.png"
                 },
              "4":
                 {
-                 "image":"assets\/landscapeTiles_119.png"
+                 "image":"assets\/landscapeTiles_125.png"
                 },
              "5":
                 {
-                 "image":"assets\/landscapeTiles_118.png"
+                 "image":"assets\/landscapeTiles_123.png"
                 },
              "6":
                 {
-                 "image":"assets\/landscapeTiles_088.png"
-                },
-             "7":
-                {
-                 "image":"assets\/landscapeTiles_095.png"
-                },
-             "8":
-                {
-                 "image":"assets\/landscapeTiles_122.png"
+                 "image":"assets\/landscapeTiles_075.png"
                 }
             },
-         "tilewidth":133
+         "tilewidth":132
         }],
  "tilewidth":130,
  "version":1,
- "width":4
+ "width":16
 }
