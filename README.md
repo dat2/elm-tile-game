@@ -7,7 +7,7 @@ correct order on screen. (Snaking right to left from the back). While this does 
 isometric tilemaps, this is mainly a toy project and is probably better to just make the game in 3D. 
 
 # Assets
-The game uses the Kenney [Isometric Landscape](http://opengameart.org/content/isometric-landscape) assets right now.
+The game uses the Kenney [Isometric Landscape](http://opengameart.org/content/isometric-landscape) and [Isometric Buildings](http://opengameart.org/content/isometric-buildings-1) assets right now.
 Create an `assets` folder in the root directory of this repository, download the zip file, and copy all files from the `PNG` folder into the assets folder you just created.
 
 
