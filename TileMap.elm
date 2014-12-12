@@ -83,7 +83,9 @@ renderCoordinates mapWidth = let
 
 -- convert a tile to a moveable image
 tileForm : Dimension -> String -> Form
-tileForm (tileWidth, tileHeight) tile = toForm <| image tileWidth tileHeight tile
+tileForm (tileWidth, tileHeight) tile = toForm <|
+  (if  (flip  String.contains) tile "blank" then (opacity 0) else identity)
+  <| image tileWidth tileHeight tile
 
 -- render each layer
 renderLayer : TileLayer -> TileSet -> (Int, Int) -> Element
@@ -91,7 +93,7 @@ renderLayer layer tileset (width, height) = let
     layerWidth = layer.width
     layerData = layer.data
     tileDimensions = (tileset.tileWidth, tileset.tileHeight)
-    tileToImage tile = Maybe.withDefault "assets/blank.jpg" <| Array.get (tile-tileset.firstTileId) (Array.fromList tileset.tiles)
+    tileToImage tile = Maybe.withDefault "blank" <| Array.get (tile-tileset.firstTileId) (Array.fromList tileset.tiles)
   in
     collage width height
       <| map (\(tile, coords) -> move (0, toFloat -height/2 + toFloat tileset.tileHeight / 2) <| move (scale regularTile coords) (tileForm tileDimensions <| tileToImage tile))
